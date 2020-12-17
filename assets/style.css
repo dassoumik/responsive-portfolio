@@ -2,7 +2,10 @@ body {
     margin: 0;
     padding: 0;
     /* background-image: url("https://images.homedepot-static.com/productImages/588c1c62-4eb0-4e5e-9f13-60ee36352159/svn/brewster-wallpaper-samples-2701-22318sam-64_600.jpg"); */
-    background-image: url("https://image.freepik.com/free-photo/gold-silver-abstract-bokeh-lights-shiny-glitter-background-with-copy-space_80743-283.jpg");
+    /* background-image: url("https://image.freepik.com/free-photo/gold-silver-abstract-bokeh-lights-shiny-glitter-background-with-copy-space_80743-283.jpg"); */
+    /* background-image: url("https://ak.picdn.net/shutterstock/videos/25891295/thumb/1.jpg"); */
+    background-image: url(./background.jpg);
+    /* background-repeat: no-repeat; */
 }
 
 .about-me-para {
@@ -26,9 +29,9 @@ footer {
     border: 1rem 0 0 0;
     margin-top: 5%;
     height: 7%;
-    border-color: rgb(220, 223, 176);
+    border-color: #bbbbbb;
     width: 100%;
-    background-color: rgba(211, 196, 61, 0.911);
+    background-color: #03506f;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -40,9 +43,14 @@ footer {
  }
 
  .bg-gold {
-     background-color: rgb(231, 230, 211); 
-     border-top-color: khaki;
+     background-color: #d0e8f2;  
+     border-color: #bbbbbb;
      border-width: medium;
+     opacity: 10;
+ }
+
+ .bg-dblue{
+     background-color: #0a043c;
  }
 
  .bg-dive {
