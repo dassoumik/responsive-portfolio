@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url("https://images.homedepot-static.com/productImages/588c1c62-4eb0-4e5e-9f13-60ee36352159/svn/brewster-wallpaper-samples-2701-22318sam-64_600.jpg"); */
+    background-image: url("https://image.freepik.com/free-photo/gold-silver-abstract-bokeh-lights-shiny-glitter-background-with-copy-space_80743-283.jpg");
+}
+
+.about-me-para {
+    margin-top: 0;
+    margin-left: 10%;
+    padding-top: 0;
+    display: inline;
+    width: 50%;
+    font-size: 1.5rem;
+    /* float: right; */
+}
+
+.about-me-img {
+    float: left;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+footer {
+    border-style: solid none none none;
+    border: 1rem 0 0 0;
+    margin-top: 5%;
+    height: 7%;
+    border-color: rgb(220, 223, 176);
+    width: 100%;
+    background-color: rgba(211, 196, 61, 0.911);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+ }
+
+ .name {
+     padding-left: 5%;
+     font-size: 2rem;
+ }
+
+ .bg-gold {
+     background-color: rgb(231, 230, 211); 
+     border-top-color: khaki;
+     border-width: medium;
+ }
+
+ .bg-dive {
+    /* background-image: url("https://image.freepik.com/free-photo/gold-silver-abstract-bokeh-lights-shiny-glitter-background-with-copy-space_80743-283.jpg"); */
+    background-image: url("https://images.homedepot-static.com/productImages/588c1c62-4eb0-4e5e-9f13-60ee36352159/svn/brewster-wallpaper-samples-2701-22318sam-64_600.jpg");
+ }
