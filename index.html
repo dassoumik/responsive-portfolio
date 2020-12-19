@@ -1,31 +1,31 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+
 <html>
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Responsive Portfolio</title>
-  <meta name="description" content="">
+  <meta name="description" content="Portfolio: Soumik Das">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/reset.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dblue">
     <a class="navbar-brand name" href="./index.html">Soumik Das</a>
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
           <a class="nav-link d-none" href="./index.html">Home</a>
         </li>
@@ -39,43 +39,43 @@
     </div>
   </nav>
 
-  <div class="container-flex mb-3 mt-1 pt-1" style="width: 50%; height: 65%; margin-left: 5%; margin-bottom: 5%; padding-top: 2%; padding-bottom: 5%;">
-    <div class="row bg-gold border border-light rounded mt-5 pt-5">
-      <!-- <div class="col-md-12"> -->
-
-      <!-- <section class="border border-primary rounded-lg bg-light mt-5"> -->
-      <h2 style="padding-left: 10%;">About Me</h2>
+  <div class="container-flex mb-3 mt-1 pt-1 outter-frame">
+    <main class="row bg-gold border border-light rounded mt-5 pt-5">
+      <h2 style="padding-left: 10%;"><b>About Me</b></h2>
       <hr>
-      <div class="col-md-1 bg-gold pt-3"></div>
-      <div class="col-md-9 bg-gold pt-3">
-        
-        <!-- <span class="card float-left"> -->
-        <!-- </span> -->
-        <!-- </div>
-            <div class="col-md-6 d-inline"> -->
-        <img src="http://placehold.it/200x200" class="img-thumbnail about-me-img" alt="...">
-        <p class="about-me-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. In culpa laboriosam, quo atque
-          officia optio
-          voluptates iste quasi dolores vel. Fugit doloremque voluptatibus dolores voluptatum? Fuga tempora dolore
-          natus debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam et modi ut debitis iste
-          suscipit eos dolor, dicta, quo nobis sed cumque commodi, exercitationem qui! Ipsum nisi asperiores temporibus
-          accusantium? suscipit eos dolor, dicta, quo nobis sed cumque commodi, exercitationem qui! Ipsum nisi
-          asperiores temporibus
-          accusantium?</p>
-       
-        <p class="about-me-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut minus repellendus non iste? Libero sint dolore
-          esse itaque aperiam debitis deserunt at voluptatem qui, eligendi iusto, nam aliquid incidunt voluptate.</p>
-      </div>
-      <div class="col-md-2 bg-gold"></div>
-      <!-- </setion> -->
+      <section class="col-md-1 bg-gold pt-3"></section>
+      <section class="col-md-9 bg-gold pt-3 pb-5 pr-0 mr-0">
+        <img src="./assets/about-me-img.jpg" class="img-thumbnail about-me-img" alt="...">
+        <p class="about-me-para">I am a Full-Stack developer currently working
+          from Atlanta, GA <br>
 
-      <!-- </div> -->
-    </div>
-    
+          I enjoy taking complex problems and turning them into simple
+          yet beautiful designs with a seamless user experience. <br>
+          <br>
+          I also love the logic and structure of coding and always strive
+          to write elegant and efficient codes. <br>
+
+          I have fifteen years of experince working in the software industry.
+          I have worked on various cutting edge techonologies and databases.
+          <br>
+          <br>
+          When I am not coding or pushing pixels you will find me in the gym
+          or biking.
+        </p>
+      </section>
+      <section class="col-md-2 bg-gold"></section>
+    </main>
   </div>
   <footer></footer>
-
-  <!-- <script src="" async defer></script> -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+  </script>  
 </body>
 
 </html>
