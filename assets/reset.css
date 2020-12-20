@@ -33,6 +33,7 @@ body {
 }
 ol, ul {
 	list-style: none;
+	padding-inline-start: 4px;
 }
 blockquote, q {
 	quotes: none;
@@ -46,3 +47,4 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
