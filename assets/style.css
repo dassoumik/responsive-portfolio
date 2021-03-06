@@ -57,6 +57,50 @@ footer {
     background-color: #0a043c;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: none;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: none;
+  background-image: none;
+  color: red;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-indicators-dot li {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators-dot .active {
+    width: 5px;
+    height: 5px;
+    margin: 10px;
+    background-color: white;
+}
+
 @media screen and (max-width: 500px) {
     .hide-m {
         display: none;

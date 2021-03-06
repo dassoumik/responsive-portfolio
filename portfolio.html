@@ -9,10 +9,14 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="assets/reset.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 
@@ -26,8 +30,14 @@
       </button>
 
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+        <ul class="navbar-nav mr-auto text-right">
+          <li class="nav-item">
+            <a class="nav-link d-none d-md-block" style="color: #0a043c" href="">Homejkiugyygwghsfyxv  shugwvcwbhghgvsbhgsbgsbgvs v
+              Homejkiugyygwghsfyxv  shugwvcwbhghgvsbhgsbgsbgvs v
+              fghahjkkllkihabcdefghijklmnopqr                             jkll                    k
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
@@ -42,42 +52,82 @@
   </header>
   <div class="container-flex mt-3 mb-5 pb-2 outter-frame" style="height: 50%;">
     <main class="row border border-light rounded bg-lblue" style="padding: 5% 5% 5% 5%; text-align: center;">
+      <div>
+        <h4 class="text-left mt-3 ml-3"><strong>Highlighted Projects</strong></h4>
+        <hr>
+      </div>
+
       <section class="row" style="margin: 0 auto;">
-        <div class="col-lg-6">
 
-          <img src="./assets/portfolio-img-1.jpg" class="img-thumbnail mb-1" alt="portfolio-image-1">
-        </div>
-        <div class="col-lg-6">
-          <img src="./assets/portfolio-img-2.jpg" class="img-thumbnail mb-1" alt="portfolio-image-2">
-        </div>
-      </section>
-      <section class="row" style="margin: 0 auto;">
-        <div class="col-lg-6">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
-          <img src="./assets/portfolio-img-3.jpg" class="img-thumbnail mb-1" alt="portfolio-image-3">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-md-block text-danger">
+                <h5>Work Day Scheduler</h5>
+                <p>
+                  <a href="https://github.com/dassoumik/work-day-scheduler">github-repository</a> ||
+                  <a href="https://dassoumik.github.io/work-day-scheduler/">page-link</a>
+                </p>
+              </div>
+              <div>
+                <img class="d-block w-100" src="./assets/wdscheduler_screenshot.jpg" alt="First slide">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-md-block text-danger">
+                <h5>City 411</h5>
+                <p>
+                  <a href="https://github.com/dassoumik/city411">github-repository</a> ||
+                  <a href="https://dassoumik.github.io/city411/">page-link</a>
+                </p>
+              </div>
+              <img class="d-block w-100" src="./assets/city411_screenshot.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <div class="d-md-block text-danger">
+                <h5>Code Quiz</h5>
+                <p>
+                  <a href="https://github.com/dassoumik/code-quiz">github-repository</a> ||
+                  <a href="https://dassoumik.github.io/code-quiz/">page-link</a>
+                </p>
+              </div>
+              <img class="d-block w-100" src="./assets/codequiz_screenshot.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev text-danger" href="#carouselExampleIndicators" role="button"
+            data-slide="prev">
+            <span class="carousel-control-prev-icon text-danger" aria-hidden="true"></span>
+            <!-- <span class="sr-only text-danger">Previous</span> -->
+          </a>
+          <a class="carousel-control-next text-danger" href="#carouselExampleIndicators" role="button"
+            data-slide="next">
+            <span class="carousel-control-next-icon " aria-hidden="true"></span>
+            <!-- <span class="sr-only">Next</span> -->
+          </a>
+          <ol class="carousel-indicators-dot mt-3">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
         </div>
-        <div class="col-lg-6">
-
-          <img src="./assets/portfolio-img-4.jpg" class="img-thumbnail mb-1" alt="portfolio-image-4">
-        </div>
-      </section>
-      <section class="row" style="margin: 0 auto;">
-        <div class="col-lg-6">
-
-          <img src="./assets/portfolio-img-5.jpg" class="img-thumbnail mb-1" alt="portfolio-image-5">
-        </div>
-        <div class="col-lg-6" style="margin: 0 auto;">
-          <img src="./assets/portfolio-img-6.jpg" class="img-thumbnail mb-1" alt="portfolio-image-6">
-        </div>
-      </section>
-      <section class="row" style="margin: 0 auto;">
-        <div class="col-lg-6">
-
-          <img src="./assets/portfolio-img-7.jpg" class="img-thumbnail mb-1" alt="portfolio-image-7">
-        </div>
-        <div class="col-lg-6">
-
-          <img src="./assets/portfolio-img-8.jpg" class="img-thumbnail mb-1" alt="portfolio-image-8">
+        <div class="row ml-1 pl-1">
+          <div class="col-sm-4 pl-1">
+            <h6 class="d-inline font-weight-bold">Download MyResume <i class="fas fa-hand-point-right hide-m"></i></h6>
+          </div>
+          <div class="col-sm-2 pl-1">
+            <a href="https://dassoumik.github.io/resume/">Resume</a>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-2 pl-1">
+            <a href="mailto:contact.soumikdas@gmail.com">Email</a>
+          </div>
+          <br>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-2 pl-1">
+            <a href="./assets/phone.jpg">Phone</a>
+          </div>
+          <br>
         </div>
       </section>
     </main>
@@ -85,7 +135,7 @@
 
   <footer></footer>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
@@ -93,8 +143,17 @@
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
     integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+  </script> -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
   </script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <!-- <script src="./index.js"></script> -->
 </body>
 
 </html>
