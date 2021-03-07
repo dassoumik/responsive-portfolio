@@ -1,7 +1,7 @@
 # Responsive Portfolio
 ## Description
 
-This is a responsive portfolio page, meaning it will display in response to the screen size of the media in which it is beign browsed. The page is designed so that viewer can receive a pleasant viewing experience on all screen sizes.
+This is my portfolio page. 
 
 ## Task
 
@@ -26,7 +26,7 @@ The grid system with break-points needed to be used to design all the pages.
   - [Contact 768]((assets/contact-screen-shot-768.jpg))<br/>
   - [Contact 400]((assets/contact-screen-shot-400.jpg))<br/>
 - ### Website Links
-  - [Home Page](https://github.com/dassoumik/responsive-portfolio)
+  - [Home Page](https://dassoumik.github.io/responsive-portfolio/home.html)
   - [Portfolio](https://dassoumik.github.io/responsive-portfolio/portfolio.html)
   - [Contact](https://dassoumik.github.io/responsive-portfolio/contact.html)
 
