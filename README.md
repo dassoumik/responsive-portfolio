@@ -26,7 +26,7 @@ The grid system with break-points needed to be used to design all the pages.
   - [Contact 768]((assets/contact-screen-shot-768.jpg))<br/>
   - [Contact 400]((assets/contact-screen-shot-400.jpg))<br/>
 - ### Website Links
-  - [Home Page](https://dassoumik.github.io/responsive-portfolio/home.html)
+  - [Home Page](https://dassoumik.github.io/responsive-portfolio/index.html)
   - [Portfolio](https://dassoumik.github.io/responsive-portfolio/portfolio.html)
   - [Contact](https://dassoumik.github.io/responsive-portfolio/contact.html)
 
