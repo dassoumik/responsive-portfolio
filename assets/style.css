@@ -100,6 +100,12 @@ footer {
     margin: 10px;
     background-color: white;
 }
+.text-size {
+    font-size: x-large;
+}
+.width-40 {
+    width: 100px;
+}
 
 @media screen and (max-width: 500px) {
     .hide-m {
